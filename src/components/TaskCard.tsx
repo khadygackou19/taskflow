@@ -1,4 +1,4 @@
-import type { Task } from '../api/types';
+import type { Task } from '../api/type';
 import { isOverdue } from '../utils/dates';
 import { PriorityBadge } from './PriorityBadge';
 

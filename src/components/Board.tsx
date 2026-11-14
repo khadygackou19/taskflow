@@ -1,4 +1,4 @@
-import type { Task, TaskStatus } from '../api/types';
+import type { Task, TaskStatus } from '../api/type';
 import { Column } from './Column';
 import { TaskCard } from './TaskCard';
 

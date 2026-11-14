@@ -1,4 +1,4 @@
-import type { Priority } from '../api/types';
+import type { Priority } from '../api/type';
 
 interface PriorityBadgeProps {
   priority: Priority;

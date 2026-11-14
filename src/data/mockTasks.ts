@@ -1,4 +1,4 @@
-import type { Task } from '../api/types';
+import type { Task } from '../api/type';
 
 export const mockTasks: Task[] = [
   { id: 1, projectId: 1, title: 'Maquetter la page de connexion', description: 'Formulaire email + mot de passe.', status: 'TODO', priority: 'HIGH', assigneeId: 1, dueDate: '2026-10-20', createdAt: '2026-10-01T09:00:00Z' },
