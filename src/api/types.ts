@@ -12,3 +12,4 @@ export interface Task {
   dueDate: string | null; // "2026-11-15"
   createdAt: string;      // ISO 8601
 }
+export type NewTask = Omit<Task, 'id'>;

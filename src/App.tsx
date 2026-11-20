@@ -7,7 +7,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-50">
       <Header />
       <main className="mx-auto max-w-6xl p-6">
-        <Board tasks={mockTasks} />
+        <Board initialTasks={mockTasks} projectId={1} />
       </main>
     </div>
   );
