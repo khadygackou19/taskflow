@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { NewTask, Task, TaskStatus } from '../api/type';
+import type { NewTask, Task, TaskStatus } from '../api/types';
 import { statusLabels } from '../utils/labels';
 import { Column } from './Column';
 import { TaskCard } from './TaskCard';

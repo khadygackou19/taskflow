@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import type { NewTask, Priority } from '../api/type';
+import type { NewTask, Priority } from '../api/types';
 import { priorityLabels } from '../utils/labels';
 import { todayISO } from '../utils/dates';
 

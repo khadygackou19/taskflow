@@ -1,4 +1,4 @@
-import type { Task } from '../api/type';
+import type { Task } from '../api/types';
 import { isOverdue } from '../utils/dates';
 
 interface TaskStatsProps {

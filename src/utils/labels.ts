@@ -1,4 +1,4 @@
-import type { Priority, TaskStatus } from '../api/type';
+import type { Priority, TaskStatus } from '../api/types';
 
 export const statusLabels: Record<TaskStatus, string> = {
   TODO: 'À faire',

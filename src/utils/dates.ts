@@ -1,4 +1,4 @@
-import type { Task } from '../api/type';
+import type { Task } from '../api/types';
 
 export function isOverdue(task: Task): boolean {
   if (task.dueDate === null || task.status === 'DONE') return false;
